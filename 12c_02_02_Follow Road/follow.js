@@ -11,6 +11,7 @@ function loadSVG() {
       // TODO: put the SVG into the DOM
 
       // TODO: Start the animation
+      runAnimation();
     });
 }
 
@@ -20,6 +21,6 @@ let currentPosition;
 
 function runAnimation() {
   console.log("animate");
-
+  document.querySelector("#car").classList.add("followCurve");
   // TODO: Build animation ...
 }
