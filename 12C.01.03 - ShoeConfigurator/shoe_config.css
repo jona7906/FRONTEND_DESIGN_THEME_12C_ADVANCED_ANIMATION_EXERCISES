@@ -1,0 +1,19 @@
+.g_to_interact_with {
+    fill: white;
+}
+
+.current_g{
+    animation: blinkingColor 0.5s linear 4 none;
+}
+ #shadow_Image-2{
+    pointer-events: none;
+    
+} 
+
+@keyframes blinkingColor {
+    from{
+        fill: white;
+    }to{
+        fill: greenyellow;
+    }
+}

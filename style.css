@@ -1,0 +1,52 @@
+svg {
+    width:200px;
+    height:250px;
+    background-color: lightblue;
+}
+
+
+g:first-of-type{
+    fill:transparent;
+    stroke: purple;   
+    stroke-width: 4;
+    animation: firstAnimation 1s infinite ease;
+}
+
+g:nth-of-type(2){   
+    fill:lightcoral;
+    stroke:paleturquoise;   
+    stroke-width: 4;
+    animation: firstAnimation 2s infinite ease;
+}
+
+#shape_01{
+    fill:red;
+    x:10;
+    y:10;
+    width:40px; 
+    height:20px;   
+}
+#shape_02{
+    fill: yellow;
+    x:60;
+    y:10;
+    rx: 10;
+    ry: 10;
+    width:30px; 
+    height:30px;   
+}
+#shape_03{
+    fill:seagreen;
+    cx:25;
+    cy:75;
+    r:20;
+    stroke: lightgreen;  
+}
+
+@keyframes firstAnimation {
+    from{
+        transform: translateX(0%)
+    }to{
+        transform: translateX(100%);
+    }
+}

@@ -1,0 +1,16 @@
+#g302{}
+#g306{}
+#g474{}
+#g350{}
+
+@keyframes firstAnimation {
+    from{
+        fill: greenyellow;
+    }to{
+        fill: red;
+    }
+}
+
+.redEyeJedI{
+    animation: firstAnimation 2s 1 ease;
+}
